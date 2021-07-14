@@ -1,0 +1,82 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* fonts live */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* watch style */
+.watch-live {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Top Banner */
+.top-banner
+{
+    display: flex;
+   grid-template-columns: repeat(2 ,1rf)
+   
+
+}
+.banner-color-size{
+    width: 1440px;
+    height: 677px;
+    background-color:#2D25A0;
+}
+.banner-title{
+    width: 485px;
+    height: 230px;
+    margin-top: 207px;
+    margin-left: 156px;
+    color: #FFFFFF;
+    margin-top: 187px;
+    margin-left: 156px;
+
+    font-size: 64px;
+
+
+}
+
+
+.go-to-live{
+    display: flex;
+    align-items: center;
+    margin-left: 156px;
+    margin-bottom: 189px;
+    background-color:#E02C6D;
+    height: 44px;
+    width: 168px;
+    padding: 10px 24px;
+    color: 
+    #FFFFFF;
+    justify-content: space-evenly;
+    font-size: 16px;
+
+}
+
+ .Watch-live{
+     width: 88px;
+     height: 24px;
+ }
+.fa-arrow{
+    width: 24px;
+    height: 24px;
+}
+.football-player-kick img{
+    width: 556px;
+    height: 438px;
+    margin-top: 153px;
+    margin-left:93px;
+    transition-delay: 0.1ms;
+
+
+    
+}
+.football-player-kick img:hover{
+    transform:rotate(45deg)
+    
+}
