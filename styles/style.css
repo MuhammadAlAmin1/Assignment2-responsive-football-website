@@ -127,3 +127,136 @@ P.player-details {
     font-weight: 400;
     margin: 10px 15px 33px 15px;
 }
+
+/* Hilight Video Watch Now */
+      /* optional */
+.All-hilight{
+    display:flex;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.hilight{
+    width: 469px;
+    height: 309px;
+    margin-left: 182px;
+    margin-top: 224px;
+    margin-right: 66px;
+}
+
+.hilight-title h2{
+    width: 320px;
+    height: 120px;
+    color: #0A0826;
+    margin-top: 224px;
+    margin-left: 182px;
+    font-weight: 900;
+    font-size: 48px;
+
+
+}
+
+
+.click-now{
+    display: flex;
+    align-items: center;
+    margin-bottom: 189px;
+    background-color:#E02C6D;
+    height: 44px;
+    width: 168px;
+    padding: 10px 24px;
+    color: 
+    #FFFFFF;
+    justify-content:center;
+    font-size: 16px;
+    margin-right: 362px;
+
+}
+
+ .watch-now{
+     width: 88px;
+     height: 24px;
+     font-weight: 500;
+ }
+.fa-arrow{
+    width: 24px;
+    height: 24px;
+}
+.football-with-player img{
+    width: 567px;
+    height: 427px;
+    margin-top: 165px;
+    margin-left:66px;
+    margin-right:165px;
+    margin-bottom: 158px;
+
+}
+.title-info{
+    width: 440px;
+    height: 113px;
+    font-weight: 500;
+    
+}
+ /* Add two item Bonus Marks */
+   /* FIFA World Cup-2022  */
+
+   .FIFA-World-Cup-2022{
+       display:flex;
+       width: 1400px;
+       grid-template-columns: 1fr 1fr;
+       background-color: rgba(117, 136, 97, 0.11);
+       color: #FFFFFF;
+       
+
+   }
+ .FIFA-image img{
+    width: 700px;
+    height: 385px;
+    padding: 10px 10px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 40px;
+     
+ }
+ .FIFA-2022 img{
+       width: 700px;
+       height: 385px;
+       box-shadow: 0px 0px 40px;
+       padding: 10px 10px;
+       margin-left: 20px;
+      
+ }
+ .FIFA-image{
+    overflow: hidden;
+ }
+ .FIFA-2022{
+    overflow: hidden;
+ }
+.FIFA-image img:hover{
+    transform:scale(2);
+    transition: transform 2s ease-in;
+}
+.FIFA-2022 img:hover{
+ transform:scale(1.5);
+ transition: transform 2s ease-out;
+}
+
+    /* Social Link */
+    .Social-Link-Shares{
+        align-items: center;
+        margin-bottom: 63px;
+
+    }
+    
+    .football-logo img{
+        width: 483px;
+        height: 110px;
+        align-items: center;
+        margin-left: 500px;
+    }
+    .social-icon{
+        align-items: center;
+        margin-left: 705px;
+    }
+.footer p{
+    margin-left: 660px;
+
+}
